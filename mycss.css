@@ -25,3 +25,15 @@ a {
     color: green;
     font-family: "Black Han Sans", sans-serif;
 }
+ul#nav {
+  list-style: none;
+  text-align: left;
+  border-bottom: 2px solid green;
+  border-top: 2px solid green;
+  padding: 10px;
+}
+ul#nav > li {
+  display: inline;
+  margin: 30px;
+}
+

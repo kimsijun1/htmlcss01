@@ -16,20 +16,18 @@
     </header>
 
     <nav>
-        <hr color=" green">
-        <ul>
+        <ul id="nav">
             <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
             <li><a href="#">News</a></li>
-            <li><a href="#">My Account</a></li>
-            <li><a href="#">Contacts</a></li>
+            <li><a href="#">My Cart</a></li>
+            <li><a href="signin.html" target="_blank">Sign in</a></li>
+            <li><a href="#">Sign up</a></li>
         </ul>
-        <hr color=" green">
     </nav>
 
     <aside id="left">
         <h4 style="font-family: 'Black Han Sans', sans-serif; color: green;">카테고리</h4>
-        <ul>
+        <ul id="aside">
             <li><a href="apple.html" target="iframe1">사과</a></li>
             <li><a href="orange.html" target="iframe1">오렌지</a></li>
             <li><a href="banana.html" target="iframe1">바나나</a></li>
@@ -40,30 +38,17 @@
 
     <section>
             <iframe name="iframe1" src="main.html"
-            width="500" height="350">
+            width="100%" height="100%" style="border: 0px;">
             </iframe>
     </section>
 
     <aside id="right">
         <h4 style="text-align: center; font-size: large;">광고</h4>
-        <div>자연에서 식탁까지 신선함 그대로!
-            <p>가까운 농장에서 바로 당신의 집으로!</p>
-        </div>
+        <p>자연에서 식탁까지 신선함 그대로!</p>
+        <p>가까운 농장에서 바로 당신의 집으로!</p>
         <img src="image/delivery.jpg" height="200" width="250">
         <img src="image/farm.jpg" height="200" width="250">
         <a href="#"></a>
-
-        <h4>Login</h4>
-        <form action="#" method="get">
-        아이디: 
-        <input type="text">
-        <br>
-        패스워드: 
-        <input type="password">
-        <br>
-        <input type="submit" value="로그인">
-        <input type="reset" value="초기화">
-        </form>
     </aside>
 
     <footer>
