@@ -27,7 +27,7 @@ a {
 }
 ul#nav {
   list-style: none;
-  text-align: left;
+  text-align: center;
   border-bottom: 2px solid green;
   border-top: 2px solid green;
   padding: 10px;
@@ -36,4 +36,80 @@ ul#nav > li {
   display: inline;
   margin: 30px;
 }
+img#main {
+  opacity: 1;
+  transition:transform 5s;
+}
+img#main:hover {
+  opacity: 0.4;
+  transform: translate(0px, 100px);
+}
+input {
+  border: 2px solid skyblue;
+  border-radius: 100px;
+}
+input[type=text]:focus {
+  background-color: bisque;
+  font-size: 1.2em;
+  color: blue;
+}
+input[type=submit] {
+  border: 2px solid skyblue;
+  border-radius: 100px;
+  background-color: skyblue;
+  padding: 8px 26px;
+}
+input[type=reset], select {
+  border: 2px solid skyblue;
+  border-radius: 100px;
+  background-color: white;
+  padding: 8px 26px;
+}
+input[type=text]:hover {
+  background-color: bisque;
+}
+input[type=password]:hover {
+  background-color: bisque;
+}
+span#test {
+  background-color: skyblue;
+  border-radius: 100px;
+  padding: 4px 10px;
+  color: white;
+}
+p.apple {
+  text-align: center;
+}
+footer ul{
+  list-style: none;
+  text-align: center;
 
+  padding: 10px 0;
+}
+footer ul li{
+  display: inline;
+  text-transform:  uppercase;
+  letter-spacing:  3px;
+  padding:5px;
+}
+footer ul{
+  list-style: none;
+  text-align: center;
+
+  padding: 10px 0;
+}
+footer ul li{
+  display: inline;
+  text-transform:  uppercase;
+  letter-spacing:  3px;
+  padding:5px;
+}
+aside#left ul{
+  list-style: none;
+}
+input, select{
+  margin:3px;
+  padding:3px;
+  border: 2px solid cadetblue;
+  border-radius: 50px;
+}
