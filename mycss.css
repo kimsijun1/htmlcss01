@@ -113,3 +113,20 @@ input, select{
   border: 2px solid cadetblue;
   border-radius: 50px;
 }
+.show {
+  width: 60%; height: 20%;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  position: absolute;
+  top: 0%;
+  right: 10%;
+  text-align: center;
+  padding: 20px 0px;
+  animation: 6s showtext infinite;
+}
+@keyframes showtext {
+  0% {opacity: 0;}
+  30% {opacity: 1;}
+  60% {opacity: 1;}
+  100% {opacity: 0;}
+}
